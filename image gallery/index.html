@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+
+    <!-- FILTER BUTTONS -->
+
+    <nav class="filter-btns">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('city')">City</button>
+    </nav>
+
+    <!-- GALLERY -->
+
+    <div class="gallery">
+
+        <img src="./nature/image copy 3.png" alt="Nature" class="nature">
+        <img src="./city/pexels-visuals-media-2153719228-33230278.jpg" alt="city" class="city">
+        <img src="./nature/image copy 2.png" alt="Nature" class="nature">
+        <img src="./nature/image copy 7.png" alt="Nature" class="nature">
+        <img src="./city/pexels-ayush-sinha-855671783-33823962.jpg" alt="city" class="city">
+        <img src="./nature/image copy.png" alt="Nature" class="nature">
+        <img src="./nature/image copy 8.png" alt="Nature" class="nature">
+        <img src="./city/pexels-hemant-singh-chauhan-639506990-17831363.jpg" alt="city" class="city">
+        <img src="./nature/image copy 3.png" alt="Nature" class="nature">
+        <img src="./nature/image.png" alt="Nature" class="nature">
+        <img src="./city/pexels-karanghadi-34634289.jpg" alt="city" class="city">
+        <img src="./nature/image copy 4.png" alt="Nature" class="nature">
+        <img src="./city/pexels-mohit-hambiria-92377455-28678222.jpg" alt="city" class="city">
+        <img src="./nature/image copy 2.png" alt="Nature" class="nature">
+        <img src="./city/pexels-rajkumarrr-comics-2156534309-35172561.jpg" alt="city" class="city">
+        <img src="./city/pexels-vaibhav-joshi-450450390-35795771.jpg" alt="city" class="city">
+        <img src="./nature/image copy 7.png" alt="Nature" class="nature">
+        <img src="./nature/image.png" alt="Nature" class="nature">
+        <img src="./nature/image copy 5.png" alt="Nature" class="nature">
+        <img src="./city/pexels-vijit-bagh-3435480-5414582.jpg" alt="city" class="city">
+        <img src="./city/pexels-visuals-media-2153719228-33230278.jpg" alt="city" class="city">
+        <img src="./nature/image copy 8.png" alt="Nature" class="nature">
+        <img src="./city/sanket-shah-F_3qCaaSadc-unsplash.jpg" alt="city" class="city">
+        <img src="./nature/image copy 6.png" alt="Nature" class="nature">
+        <img src="./city/pexels-karanghadi-34634289.jpg" alt="city" class="city">
+
+
+
+
+    </div>
+
+    <!-- LIGHTBOX -->
+
+    <div class="lightbox" id="lightbox">
+        <img id="lightbox-img" alt="lightbox image">
+        <div class="controls">
+            <button type="button" onclick="prevImage()">Prev</button>
+            <button type="button" onclick="nextImage()">Next</button>
+            <button type="button"  onclick="closeLightbox()">Close</button>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
